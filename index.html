@@ -1,0 +1,18 @@
+<form method="POST">
+    <label>Age:</label>
+    <input type="number" name="age" required>
+    <label>Gender:</label>
+    <select name="gender" required>
+        <option value="Male">Male</option>
+        <option value="Female">Female</option>
+    </select>
+    <label>Total Income:</label>
+    <input type="number" name="total_income" required>
+    <label>Expenses:</label>
+    <label><input type="checkbox" name="utilities"> Utilities</label>
+    <input type="number" name="utilities_amount" placeholder="Amount">
+    <label><input type="checkbox" name="entertainment"> Entertainment</label>
+    <input type="number" name="entertainment_amount" placeholder="Amount">
+    <!-- Add other categories similarly -->
+    <button type="submit">Submit</button>
+</form>
